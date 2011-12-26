@@ -1,0 +1,1 @@
+let g:rvmprompt_tokens ="i v p g"
