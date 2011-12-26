@@ -1,4 +1,25 @@
-"statusline setup
+" This file contains settings for how the vim display is handled.
+" This is *not* where gui-mode specific settings are held. That's in gui.vim.
+" These settings apply to both gui mode and console mode vim.
+
+set laststatus=2        " always display a status line
+set number              " show line numbers
+set ruler               " display coordinates in status bar
+set showcmd             " display unfinished commands
+set showmatch           " show matching bracket (briefly jump)
+set showmode            " display the current mode in the status bar
+set title               " show file in titlebar
+set gcr=a:blinkon0      "Disable cursor blink
+
+set foldmethod=indent   "fold based on indent
+set foldnestmax=3       "deepest fold is 3 levels
+set nofoldenable        "dont fold by default
+
+set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set sidescrolloff=15
+set sidescroll=1
+
+" status bar
 set statusline=%#DiffAdd#
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -19,7 +40,6 @@ set statusline+=%#DiffAdd# "switch to colors used for line number
 set statusline+=%c:     "cursor column
 set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
-set laststatus=2
 
 "return the syntax highlight group under the cursor ''
 function! StatuslineCurrentHighlight()
