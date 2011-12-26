@@ -1,9 +1,6 @@
 [submodule "bundle/solarized.vim"]
 	path = bundle/solarized.vim
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "snippets"]
-	path = snippets
-	url = https://github.com/scrooloose/snipmate-snippets.git
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
@@ -70,3 +67,6 @@
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/rvm.vim"]
+	path = bundle/rvm.vim
+	url = https://github.com/tpope/vim-rvm.git
