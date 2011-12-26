@@ -29,3 +29,7 @@ set noerrorbells
 " Filetype settings and syntax should be enabled.
 filetype plugin indent on
 syntax on
+
+if has("mouse")
+ set mouse=a
+endif
