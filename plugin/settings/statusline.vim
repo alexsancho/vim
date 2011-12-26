@@ -18,7 +18,7 @@ set statusline+=%{StatuslineCurrentHighlight()}\ \ "current highlight
 set statusline+=%#DiffAdd# "switch to colors used for line number
 set statusline+=%c:     "cursor column
 set statusline+=%l/%L   "cursor line/total lines
-"set statusline+=\ %P    "percent through file
+set statusline+=\ %P    "percent through file
 set laststatus=2
 
 "return the syntax highlight group under the cursor ''

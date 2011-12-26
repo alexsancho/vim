@@ -145,13 +145,6 @@ nnoremap <D-*> :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls<CR>
 nnoremap ' `
 nnoremap ` '
 
-"
-" ============================
-" Abbreviations to use...
-" ============================
-" snippets that are expanded with space
-abbr pry! require 'pry'; binding.pry 
-
 " ============================
 " vim-rspec
 " ============================
