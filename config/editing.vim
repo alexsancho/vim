@@ -28,10 +28,14 @@ set wrap
 set linebreak
 " use an 80-character line limit
 set textwidth=80
+
 " set default local for spelling
 setlocal spell spelllang=es
 " set custom definitions file
 set spellfile=~/.vim/spell/es-utf8.add
+" spelling shortcut
+map <silent> <leader>ss :setlocal spell!<CR>
+set nospell
 
 set encoding=utf-8
 " for MacVim
