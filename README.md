@@ -70,6 +70,10 @@ Surround.vim
 `ds"`         - e.g. remove the surrounding double-quotes (").  
 `ys[motion]"` - e.g. surround the text identified by [motion] with double-quotes ("). [^motionhelp]
 
+Snipmate.vim
+============
+`<Leader>s` - expands snippets that start by current word
+
 Tagbar.vim
 ===========
 `<Leader>t` - Toggle Tagbar  
