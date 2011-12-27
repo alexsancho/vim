@@ -97,3 +97,12 @@
 [submodule "bundle/nerdcommenter.vim"]
 	path = bundle/nerdcommenter.vim
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/prefixr.vim"]
+	path = bundle/prefixr.vim
+	url = https://github.com/mr-szymanski/prefixr.git
+[submodule "bundle/w3cvalidate.vim"]
+	path = bundle/w3cvalidate.vim
+	url = https://github.com/dekomote/w3cvalidate.vim.git
+[submodule "bundle/jquery.vim"]
+	path = bundle/jquery.vim
+	url = https://github.com/itspriddle/vim-jquery.git

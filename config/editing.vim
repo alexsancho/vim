@@ -28,6 +28,8 @@ set wrap
 set linebreak
 " use an 80-character line limit
 set textwidth=80
+" set default local for spelling
+setlocal spell spelllang=es
 
 " format settings
 " t - Auto-wrap text using textwidth

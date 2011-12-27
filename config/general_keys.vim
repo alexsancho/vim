@@ -2,6 +2,9 @@
 "  than hitting Shift-: in most cases).
 nnoremap <Leader><Leader> :
 
+" spelling shortcut
+map <leader>ss :setlocal spell!<cr>
+
 """ Writing Buffers / Quitting
 """"""""""""""""""""""""""""""
 " Keybinds for quickly writing files and/or closing windows

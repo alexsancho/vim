@@ -11,6 +11,8 @@ General
 `;` - The Leader key. Used in any binding where "`<Leader>`" is present.  
     e.g. in Command-T below, where `<Leader>t` is listed, that is (by default) a mapping for "`;t`". The Leader key can be changed in `~/.vimrc`.
 
+`<Leader>ss` - start spelling on buffer.  
+
 `<Leader>q` - quit the current window.  
 `<Leader>Q` - quit all windows (exit this vim session)
 
@@ -24,7 +26,7 @@ General
 
 Ack.vim
 =======
-`<Leader>a` - Prompt you for a string to :Ack!
+`<Leader>a` - Prompt you for a string to :Ack!  
 
 Fugitive
 ========
@@ -35,23 +37,37 @@ Fugitive
 `<Leader>gnc` - Git svn dcommit.  
 `<Leader>gnr` - Git svn rebase.
 
+Gundo.vim
+=========
+`<Leader>u` - Toggle Gundo  
+
 NERDTree
 ========
-`<Leader>d` - Toggle NERDTree
+`<Leader>d` - Toggle NERDTree  
+
+Prefixr.vim
+===========
+`<Leader>p` - Run :Prefixr on the selection  
 
 Rails.vim
 =========
-gf - updated to handle rails contexts.  
 `<Leader>rc` - runs script/console  
 `<Leader>rg` - runs script/generate  
-`<Leader>rs` - runs script/server (or restarts it as necessary)
+`<Leader>rs` - runs script/server (or restarts it as necessary)  
+
+`<Leader>ri` - runs the migration inversion command  
 
 `<Leader>ra` - open an "alternate" file  
 `<Leader>rr` - open a "related" file  
 
 Surround.vim
 ============
-cs'"        - e.g. replace surrounding single-quotes (') with double-quotes (").  
-ds"         - e.g. remove the surrounding double-quotes (").  
-ys[motion]" - e.g. surround the text identified by [motion] with double-quotes (").  
-              use :help text-objects for more information about available motions.
+`cs'"`        - e.g. replace surrounding single-quotes (') with double-quotes (").  
+`ds"`         - e.g. remove the surrounding double-quotes (").  
+`ys[motion]"` - e.g. surround the text identified by [motion] with double-quotes ("). [^motionhelp]
+
+W3Cvalidate.vim
+===============
+`<Leader>v` - to validate the current buffer  
+
+[^motionhelp]: use :help text-objects for more information about available motions.
