@@ -28,6 +28,10 @@ Ack.vim
 =======
 `<Leader>a` - Prompt you for a string to :Ack!  
 
+Ctrlp.vim
+=========
+`<Leader>b` - display the buffers list  
+
 Fugitive
 ========
 `<Leader>gs`  - Display git status.  
@@ -65,6 +69,10 @@ Surround.vim
 `cs'"`        - e.g. replace surrounding single-quotes (') with double-quotes (").  
 `ds"`         - e.g. remove the surrounding double-quotes (").  
 `ys[motion]"` - e.g. surround the text identified by [motion] with double-quotes ("). [^motionhelp]
+
+Tagbar.vim
+===========
+`<Leader>t` - Toggle Tagbar  
 
 W3Cvalidate.vim
 ===============
