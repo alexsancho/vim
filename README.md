@@ -24,6 +24,16 @@ General
 `<Leader>k` - move to the window above the current window.  
 `<Leader>l` - move to the window to the right of the current window.
 
+Visual
+=======
+`<ctrl>x` - cut  
+`<ctrl>c` - copy  
+`<ctrl>v` - paste  
+`<ctrl>s` - save  
+`<ctrl>z` - undo  
+`<ctrl>y` - redo  
+`<ctrl>a` - select all  
+
 Ack.vim
 =======
 `<Leader>a` - Prompt you for a string to :Ack!  
@@ -87,3 +97,4 @@ W3Cvalidate.vim
 `<Leader>v` - to validate the current buffer  
 
 [^motionhelp]: use :help text-objects for more information about available motions.
+ 

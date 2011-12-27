@@ -63,3 +63,41 @@ autocmd BufReadPost *
    \ if line("'\"") > 1 && line("'\"") <= line("$") |
    \ exe "normal! g`\"" |
    \ endif
+
+" ==========Ctrl+C/V/X from mswin.vim
+" backspace in Visual mode deletes selectiobackspacen
+vnoremap <BS> d
+
+" CTRL-X - Cut
+vnoremap <C-X> "+x
+
+" CTRL-C - Copy
+vnoremap <C-C> "+y
+
+" CTRL-V - Paste
+map <C-V>		"+gP
+cmap <C-V>		<C-R>+
+
+" Use CTRL-S - save
+noremap <C-S>		:update<CR>
+vnoremap <C-S>		<C-C>:update<CR>
+inoremap <C-S>		<C-O>:update<CR>
+
+" CTRL-A - Select all
+noremap <C-A> gggH<C-O>G
+
+" CTRL-Z is Undo; not in cmdline though
+noremap <C-Z> u
+inoremap <C-Z> <C-O>u
+
+" CTRL-Y is Redo (although not repeat); not in cmdline though
+noremap <C-Y> <C-R>
+inoremap <C-Y> <C-O><C-R>
+
+" Pasting blockwise and linewise selections is not possible in Insert and
+" Visual mode without the +virtualedit feature.  They are pasted as if they
+" were characterwise instead.
+" Uses the paste.vim autoload script.
+
+exe 'inoremap <script> <C-V>' paste#paste_cmd['i']
+exe 'vnoremap <script> <C-V>' paste#paste_cmd['v']
