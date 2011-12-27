@@ -31,7 +31,11 @@ set textwidth=80
 " set default local for spelling
 setlocal spell spelllang=es
 " set custom definitions file
-set spellfile=~/.vim/dict.add
+set spellfile=~/.vim/spell/es-utf8.add
+
+set encoding=utf-8
+" for MacVim
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 
 " format settings
 " t - Auto-wrap text using textwidth

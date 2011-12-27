@@ -3,7 +3,7 @@
 nnoremap <Leader><Leader> :
 
 " spelling shortcut
-map <leader>ss :setlocal spell!<cr>
+map <leader>ss :setlocal spell! spelllang=es<CR>
 
 """ Writing Buffers / Quitting
 """"""""""""""""""""""""""""""

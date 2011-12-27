@@ -78,6 +78,10 @@ Tagbar.vim
 ===========
 `<Leader>t` - Toggle Tagbar  
 
+Tasklist.vim
+===========
+`<Leader>tl` - Scan for Tasks  
+
 W3Cvalidate.vim
 ===============
 `<Leader>v` - to validate the current buffer  

@@ -5,6 +5,9 @@
 set laststatus=2                                                                " always display a status line
 set number                                                                      " show line numbers
 set ruler                                                                       " display coordinates in status bar
+
+set rulerformat=%40(%4l,%2v(%p%%\ of\ \%L)%<%=%8.20t%m%R%)
+
 set showcmd                                                                     " display unfinished commands
 set showmatch                                                                   " show matching bracket (briefly jump)
 set showmode                                                                    " display the current mode in the status bar
@@ -24,13 +27,16 @@ set statusline=%#DiffAdd#
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline=%#DiffAdd#
-set statusline+=%f\  
-set statusline+=%#LineNr#                                                       " switch to colors used for line number
-set statusline+=%{rvmprompt#statusline()}
-set statusline+=%{fugitive#statusline()}
-set statusline+=%#DiffAdd#                                                      " switch back to normal
-set statusline+=%=                                                              " left/right separator
 set statusline+=%h%m%r%w                                                        " status flags
+set statusline+=\ %<%f\  
+set statusline+=%#LineNr#                                                       " switch to colors used for line number
+set statusline+=\ [%{&ff}/%Y]                                                   " filetype
+
+set statusline+=\ %{rvmprompt#statusline()}
+set statusline+=\ %{fugitive#statusline()}
+set statusline+=%#DiffAdd#                                                      " switch back to normal
+
+set statusline+=%=                                                              " left/right separator
 
 "display a warning if &paste is set
 set statusline+=%#DiffChange#

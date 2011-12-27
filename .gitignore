@@ -3,4 +3,4 @@ tags
 *.swp
 .VimballRecord
 view
-dict.add
+spell/es-utf8.add

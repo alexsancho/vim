@@ -109,3 +109,6 @@
 [submodule "bundle/tagbar.vim"]
 	path = bundle/tagbar.vim
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/tasklist.vim"]
+	path = bundle/tasklist.vim
+	url = https://github.com/vim-scripts/TaskList.vim.git
