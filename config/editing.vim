@@ -30,6 +30,8 @@ set linebreak
 set textwidth=80
 " set default local for spelling
 setlocal spell spelllang=es
+" set custom definitions file
+set spellfile=~/.vim/dict.add
 
 " format settings
 " t - Auto-wrap text using textwidth
