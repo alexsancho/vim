@@ -1,3 +1,7 @@
+""" Keybindings
+"""""""""""""""
+
+" Use <Leader>v to validate current buffer
 map <Leader>v :W3cValidate<CR>
 
 

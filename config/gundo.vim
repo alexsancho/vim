@@ -1,3 +1,7 @@
+""" Keybindings
+"""""""""""""""
+
+" Use <Leader>u toggle Gundo
 map <Leader>u :GundoToggle<CR>
 
 " open on the right so as not to compete with the nerdtree

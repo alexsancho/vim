@@ -106,3 +106,6 @@
 [submodule "bundle/jquery.vim"]
 	path = bundle/jquery.vim
 	url = https://github.com/itspriddle/vim-jquery.git
+[submodule "bundle/tagbar.vim"]
+	path = bundle/tagbar.vim
+	url = https://github.com/majutsushi/tagbar.git
