@@ -94,3 +94,6 @@
 [submodule "bundle/php-stuff.vim"]
 	path = bundle/php-stuff.vim
 	url = https://github.com/paulyg/Vim-PHP-Stuff.git
+[submodule "bundle/nerdcommenter.vim"]
+	path = bundle/nerdcommenter.vim
+	url = https://github.com/scrooloose/nerdcommenter.git
