@@ -91,3 +91,6 @@
 [submodule "bundle/rvmprompt.vim"]
 	path = bundle/rvmprompt.vim
 	url = https://github.com/lucapette/rvmprompt.vim.git
+[submodule "bundle/php-stuff.vim"]
+	path = bundle/php-stuff.vim
+	url = https://github.com/paulyg/Vim-PHP-Stuff.git
