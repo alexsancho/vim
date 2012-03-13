@@ -8,8 +8,8 @@ task :default => [ 'vim:init' ]
 task :bootstrap => [	
 	'pathogen:install', 
 	'pathogen:helptags', 
-	'vim:init', 
 	'vim:update', 
+	'vim:init', 
 ]
 
 namespace :pathogen do
