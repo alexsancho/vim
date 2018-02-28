@@ -67,9 +67,6 @@
 [submodule "bundle/addon-mw-utils.vim"]
 	path = bundle/addon-mw-utils.vim
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/snipmate-snippets.vim"]
-	path = bundle/snipmate-snippets.vim
-	url = https://github.com/honza/snipmate-snippets.git
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
 	url = https://github.com/garbas/vim-snipmate.git
@@ -88,9 +85,6 @@
 [submodule "bundle/html5.vim"]
 	path = bundle/html5.vim
 	url = https://github.com/othree/html5.vim.git
-[submodule "bundle/rvmprompt.vim"]
-	path = bundle/rvmprompt.vim
-	url = https://github.com/lucapette/rvmprompt.vim.git
 [submodule "bundle/php-stuff.vim"]
 	path = bundle/php-stuff.vim
 	url = https://github.com/paulyg/Vim-PHP-Stuff.git
